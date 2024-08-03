@@ -1,5 +1,5 @@
-#ifndef ALARM_H
-#define ALARM_H
+#ifndef ALARM_HH
+#define ALARM_HH
 
 class Alarm {
 public:
@@ -15,4 +15,4 @@ private:
     bool isAlarmTriggered = false;
 };
 
-#endif // ALARM_H
+#endif // ALARM_HH

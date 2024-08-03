@@ -4,4 +4,12 @@ project(MiClock)
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
-add_executable(miclock src/main.cpp)
+
+# Añadir los archivos fuente
+set(SOURCES
+    src/main.cc
+    src/alarm.cc
+)
+
+# Crear el ejecutable
+add_executable(miclock ${SOURCES})

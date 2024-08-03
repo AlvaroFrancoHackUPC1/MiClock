@@ -1,7 +1,14 @@
 #include <iostream>
-#include "../include/alarm.hh"
+#include "alarm.hh"
+
+using namespace std;
 
 int main() {
-    std::cout << "MiClock Project" << std::endl;
+    cout << "MiClock Project" << endl;
+
+    Alarm myAlarm;
+    myAlarm.setAlarm(7, 30, 0);
+    myAlarm.checkAlarm();
+
     return 0;
 }
