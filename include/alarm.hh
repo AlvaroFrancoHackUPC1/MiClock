@@ -8,17 +8,16 @@
 #include <string>
 #include <thread>
 #include <sstream>
+#include <vector>
 using namespace std;
 
 
 class Alarm {
 public:
-    void setAlarm(int hours, int minutes, int seconds);
-    void checkAlarm();
+    void set(int hours, int minutes, int seconds);
     void triggerAlarm();
-    void stopAlarm();
-    void snoozeAlarm(int snoozeMinutes);
-    bool shouldTriggerAlarm();
+    void stop();
+    void snooze(int snoozeMinutes);
 
 private:
     int alarmHours;
