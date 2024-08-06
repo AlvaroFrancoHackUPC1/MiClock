@@ -64,9 +64,14 @@ void verAlarmas() {
         }
     file.close();
     }
+    else {
+        cout << "No se puede abrir el archivo." << endl;
+    }
     cout << endl;
 }
 
+//* De momento no hace falta, pero puede servir en un futuro
+/*
 bool buscarAlarma(int hh_des, int min_des, int seg_des) {
     fstream file("/home/zombie/Desktop/MiClock/data/alarm_time.txt");
     if (file.is_open()) {
@@ -89,6 +94,7 @@ bool buscarAlarma(int hh_des, int min_des, int seg_des) {
     }
     return false;
 }
+*/
 
 void modificarAlarma(int nline) {
     // Abrir el archivo en modo lectura/escritura
@@ -174,10 +180,10 @@ void eliminarAlarma(int nline) {
 
 int main() {
     cout << "MiClock Project" << endl;
-    
+
     // Start the alarm checker in a separate thread
     thread alarmCheckerThread(startAlarmChecker);
-    
+
     int opt = -1; 
     while (opt != 5) {
         cout << "1. Establecer alarma" << endl;
@@ -208,7 +214,7 @@ int main() {
     }
     encendido = false;
 
-    // Join the thread when the main program exits (if desired)
+    // Join the thread when the main program exits
     alarmCheckerThread.join(); // Comment this out to avoid blocking the main thread
 
     return 0;

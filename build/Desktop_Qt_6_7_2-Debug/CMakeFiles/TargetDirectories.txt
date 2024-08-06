@@ -1,0 +1,9 @@
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/MiClock.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/edit_cache.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/rebuild_cache.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/list_install_components.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/install.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/install/local.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/install/strip.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/MiClock_autogen_timestamp_deps.dir
+/home/zombie/Desktop/MiClock/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/MiClock_autogen.dir
